@@ -1,4 +1,4 @@
-# Loan Status Prediction Using Machine Learning ![bank](https://github.com/user-attachments/assets/753ee3a6-0871-4163-9437-2b61e1404191)
+# Loan Status Prediction Using Machine Learning
 
 
 ## 1. Background and Overview
