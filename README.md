@@ -62,17 +62,18 @@ Despite reasonable accuracy, additional fine-tuning and enhancements could furth
 
 ## 5. Recommendations
 
-**1. Addressing Data Imbalance:**
-The dataset is slightly imbalanced between approved and rejected loans. Applying techniques like SMOTE (Synthetic Minority Over-sampling Technique) or adjusting class weights could improve model performance, particularly for predicting loan rejections.
+### 🔧 1. Addressing Data Imbalance:
+The dataset is slightly imbalanced between approved and rejected loans. Applying techniques like **SMOTE** (Synthetic Minority Over-sampling Technique) or adjusting class weights could improve model performance, particularly for predicting loan rejections.
 
-**2. Feature Engineering:**
-Create derived features like loan-to-income ratio or debt-to-income ratio to improve predictive power. These ratios could better capture the relationship between income, loan amount, and loan term.
+### 🛠️ 2. Feature Engineering:
+Create derived features like the **loan-to-income ratio** or **debt-to-income ratio** to improve predictive power. These ratios could better capture the relationship between income, loan amount, and loan term.
 
-**3. Model Explainability:**
-Utilize tools like SHAP (SHapley Additive exPlanations) to better understand the model's predictions and the contribution of each feature. This could also help in making the model more interpretable for stakeholders.
+### 🔍 3. Model Explainability:
+Utilize tools like **SHAP** (SHapley Additive exPlanations) to better understand the model's predictions and the contribution of each feature. This would make the model more interpretable for stakeholders.
 
-**4. Additional Evaluation Metrics:**
-Instead of relying solely on accuracy, include other metrics such as Precision, Recall, and F1-score to ensure that the model performs well in both loan approval and rejection cases. Precision/Recall would be particularly useful in handling imbalanced datasets.
+### 📊 4. Additional Evaluation Metrics:
+Instead of relying solely on **accuracy**, include other metrics such as **Precision**, **Recall**, and **F1-score** to ensure that the model performs well in both loan approval and rejection cases. **Precision/Recall** is particularly useful for handling imbalanced datasets.
 
-**5. Further Model Tuning:**
-Experiment with more advanced models like Gradient Boosting Machines (GBM) or XGBoost, which often outperform traditional classifiers in structured data tasks. Additionally, deeper hyperparameter tuning could lead to even better results.
+### 🚀 5. Further Model Tuning:
+Experiment with more advanced models like **Gradient Boosting Machines (GBM)** or **XGBoost**, which often outperform traditional classifiers in structured data tasks. Additionally, deeper **hyperparameter tuning** could lead to even better results.
+
