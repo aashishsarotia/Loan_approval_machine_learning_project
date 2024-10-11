@@ -1,4 +1,5 @@
-# Loan Status Prediction Using Machine Learning
+# Loan Status Prediction Using Machine Learning ![bank](https://github.com/user-attachments/assets/753ee3a6-0871-4163-9437-2b61e1404191)
+
 
 ## 1. Background and Overview
 The Loan Status Prediction project aims to predict whether a loan applicant's request will be approved or rejected based on multiple demographic, financial, and historical factors. Using machine learning, we train models to make informed decisions by analyzing a dataset from a loan institution.
